@@ -1,0 +1,82 @@
+body{
+margin-top:0px;
+margin-left:0px;
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+line-height:18px;
+}
+
+a{
+color:#0056C1;
+text-decoration:none;
+}
+a:hover{
+color:#ff6600;
+text-decoration:none;
+}
+
+.formheadings {
+	color: #ff0000;
+}
+
+.warningtext {
+	color: #ff6600;
+	font-size:14px;
+font-weight:bold;
+}
+.findbloodlistmenu {
+	height: 19px;
+	width: 130px;
+}
+.maintextfield{
+	height: 19px;
+	width: 132px;
+}
+.mainiconlinks a{
+color:#003366;
+text-decoration:none;
+}
+.mainiconlinks a:hover{
+color:#ff6600;
+text-decoration:none;
+}
+.disclaimer{
+color:#999999;
+}
+.bottomlinks a{
+color:#666666;
+text-decoration:none;
+}
+.bottomlinks a:hover{
+color:#ff6600;
+text-decoration:none;
+}
+.innerheading{
+color:#ff0000;
+font-size:16px;
+font-weight:bold;
+}
+.innerlinks a{
+color:#ff0000;
+text-decoration:none;
+}
+.innerlinks a:hover{
+color:#333333;
+text-decoration:none;
+}
+.innersublinks a{
+color:#0872CB;
+text-decoration:none;
+}
+.innersublinks a:hover{
+color:#333333;
+text-decoration:none;
+}
+.contactheading{
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+}

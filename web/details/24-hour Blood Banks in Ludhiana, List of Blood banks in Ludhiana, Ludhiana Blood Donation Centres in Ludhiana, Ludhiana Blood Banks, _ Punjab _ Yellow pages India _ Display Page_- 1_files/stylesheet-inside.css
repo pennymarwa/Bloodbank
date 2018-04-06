@@ -1,0 +1,111 @@
+@charset "UTF-8";
+body {background-color: #ffffff;  margin: 0px auto 0px auto;}
+
+.page { position: relative; margin: 0px auto 0px auto; max-width: 1000px;}
+
+.page header  {
+    height: 172px;
+}
+
+footer  {
+
+}
+
+
+
+.nav-menu1 { position: relative; float: left; left: 0px; height: 20px;}
+.nav-menu2 { position: relative; float: right; right: 320px; height: 20px; width:250px;  top: 0px;}
+.nav-menu2-a { position: absolute; float: right; right: 0px; height: 20px; width:280px; top: 2px;}
+
+
+
+.nav-logo { float: left;  height: 25px; width: 25%; top: 30px; left: 0px;  position: absolute; height: 92px;}
+.nav-advt  {position: absolute; float: right; height: 25px; width: 75%; top: 30px; right: 0px;  height: 92px;}
+
+.nav-menu3  { float: left; height: 25px; width: 100%; top: 130px; left: 0px; position: absolute; height: 25px;}
+.nav-scroll { float: left; height: 25px; width: 100%; top: 152px;  left: 0px; position: absolute; height: 25px;}
+
+
+
+.td-style{
+
+font-size: 13px;
+font-family: arial;
+line-height: 100%;
+}
+
+
+
+
+
+
+/* Rules Sensitive to Screen Size */
+
+
+/* Screen Rules -1 */
+
+
+
+@media screen and (min-width: 0px) and (max-width: 579px) {	
+
+.nav-menu3  { display: none;}
+.nav-advt  { display: none;}
+
+.page header { height: 225px;}
+.nav-scroll { top: 200px; }
+.nav-menu2 { position: absolute;  top: 170px; display: block; float: right; right: 50px; width: 250px;}
+.nav-menu2-a { position: absolute;  top: 130px; display: block; float: left; left: 10px; width: 300px;}
+.nav-logo {width: 250px;}
+
+}
+
+
+@media screen and (min-width: 580px) and (max-width: 729px) {
+
+.nav-menu3  { display: none;}
+.nav-advt  { display: none;}
+
+.page header { height: 135px;}
+.nav-scroll { top: 115px; }
+.nav-logo {width: 250px;}
+
+.nav-menu2 { position: relative; float: right; right: 50px; height: 20px; width:250px;  top: 0px;}
+.nav-menu2-a { position: absolute;  top: 60px; display: block; float: right; right: 10px;}
+}
+
+
+
+
+/* Screen Rules -2 */
+
+
+@media screen and (min-width: 730px) and (max-width: 939px) {
+
+.nav-menu3  { display: none;}
+
+.page header { height: 235px;}
+.nav-advt {float: left; top: 110px; left: 0px; width: 100%;}
+.nav-scroll { top: 215px; }
+
+.nav-logo {width: 250px;}
+
+.nav-menu2 { position: relative; float: right; right: 150px; height: 20px; width:250px;  top: 0px;}
+.nav-menu2-a { position: absolute;  top: 60px; display: block; float: right; right: 10px;}
+
+
+
+}
+
+
+
+
+/* Screen Rules -3 */
+
+@media screen and (min-width: 940px) and (max-width: 10000px) {
+
+}
+
+
+
+
+

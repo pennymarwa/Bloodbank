@@ -1,0 +1,150 @@
+table, P 
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #333333;
+line-height: 17px;
+font-size: 12px
+			
+}
+
+.text
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #ffffff;
+line-height: 15px;
+font-size: 11px
+			
+}
+
+a:hover.text
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #ff9900;
+line-height: 15px;
+font-size: 11px
+			
+}
+
+.text_small
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #333333;
+line-height: 15px;
+font-size: 10px
+			
+}
+
+.text_small_WHITE
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #FFFFFF;
+line-height: 15px;
+font-size: 10px
+			
+}
+
+
+a:hover.text_small_WHITE
+{
+font-family: Arial, Helvetica, sans-serif; 
+color: #000000;
+line-height: 15px;
+font-size: 10px
+			
+}
+
+
+.heading_white
+{
+FONT-WEIGHT: bold;
+COLOR: #003366;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px
+}
+
+.heading_black
+{
+FONT-WEIGHT: bold;
+COLOR: #000000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px
+}
+
+.heading_color
+{
+FONT-WEIGHT: bold;
+COLOR: #D83845;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px
+}
+
+
+body {  font-family: Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		margin-top: 0;
+		line-height: 14px;
+		color: #666666
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+
+		SCROLLBAR-FACE-COLOR: #eeeeee; 
+		SCROLLBAR-HIGHLIGHT-COLOR: #cccccc; 
+		SCROLLBAR-SHADOW-COLOR: #cccccc; 
+		SCROLLBAR-ARROW-COLOR: #000000; 
+		SCROLLBAR-BASE-COLOR: #ffffff; 
+		scrollbar-3d-light-color: #333333; 
+		scrollbar-dark-shadow-color: #333333 ; 
+		SCROLLBAR-TRACK-COLOR: #FFFFFF; 
+		
+		}
+
+
+a
+{
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px;
+line-height: 14px; 
+font-weight: none;
+color: #003366; 
+text-decoration: none
+}
+
+
+a:hover
+{
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+font-weight: none;
+color: #cc0000; 
+text-decoration: none
+}
+
+a:visited{
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 12px; 
+font-weight: none;
+color: #666666; 
+text-decoration: none
+}
+
+
+
+
+.textarea
+{
+    BORDER-RIGHT: #cccccc 1px ridge;
+    BORDER-TOP: #000000 1px ridge;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #000000 1px ridge;
+    WIDTH: 130px;
+    COLOR: black;
+    BORDER-BOTTOM: #cccccc 1px ridge;
+    BACKGROUND-COLOR: #FFFFFF
+   
+}
+.contactheading{
+color:#ffffff;
+font-size:12px;
+font-weight:bold;
+}

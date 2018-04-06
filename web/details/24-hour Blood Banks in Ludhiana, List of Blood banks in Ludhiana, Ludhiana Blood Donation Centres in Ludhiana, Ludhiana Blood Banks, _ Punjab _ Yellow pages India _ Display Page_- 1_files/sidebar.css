@@ -1,0 +1,17 @@
+
+
+#content {
+	position:absolute;
+	right: 0;
+	top: 221px;
+	width: 160px;
+	height: 600px;
+	padding: 0 0px 0px 0px;
+	font-size: small;
+	color: #000000;
+}
+
+.sidebox {
+	background: #ffffff;
+	display: none;
+}

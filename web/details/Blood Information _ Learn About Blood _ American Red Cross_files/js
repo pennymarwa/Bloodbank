@@ -1,0 +1,35 @@
+/*
+//mathtag.mediamath.com
+*/
+
+  var mm_ri = String( Math.random() );
+  mm_ri = mm_ri.replace( /0\./g,'' );
+
+  var mm_protocol = location.protocol;
+  if ( mm_protocol != 'http:' && mm_protocol != 'https:' ){ mm_protocol = 'http:'; }
+
+  var mm_el0 = document.createElement('img');
+  var url0 = '//mathtag.mediamath.com';
+  url0 = url0.replace("\[RANDOM_NUMBER\]", mm_ri);
+  mm_el0.width = 1;
+  mm_el0.height = 1;
+  mm_el0.src = url0;
+  document.body.appendChild(mm_el0);
+
+//used to sync advertiser without leaking referer to final destination
+	  var frm = document.createElement('iframe');
+	  frm.style.visibility = 'hidden';
+	  frm.style.display = 'none';
+	  frm.src = "http://pixel.mathtag.com/sync/iframe?mt_adid=149608&v1=&v2=&v3=&s1=&s2=&s3=&mt_uuid=ae1a56d0-0223-4e00-9624-23eaf0b1990f&no_iframe=1";
+	  frm.setAttribute("id", "mm_sync_back_ground");
+	  var trys = 0;
+	  var interval = setInterval(function(){
+	      if (trys++ < 20 && interval && !document.getElementById("mm_sync_back_ground"))
+		  if (document.body) {
+		      if (interval) {
+			  clearInterval(interval);
+			  interval = 0;
+		       }
+		      document.body.appendChild(frm);
+		  }
+	  }, 100);
